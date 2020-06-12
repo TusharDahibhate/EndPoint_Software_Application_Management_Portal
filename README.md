@@ -12,9 +12,13 @@ will have. The installation process could be tedious and time consuming at times
 any endpoint. It will be used to automate the process of software installation to reduce the manual efforts required during installation 
 of a software. It will also be used to provide application execution environments. 
 
-## Diagrams
+## Automation of software installation using Chef:
 
-// to-do
+<img src="https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/images/chef.png" width="600">
+
+## Procision of execution environment using Docker:
+
+<img src="https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/images/docker.png" width="600">
 
 ## Tech Stack
 * Backend
