@@ -16,7 +16,10 @@ of a software. It will also be used to provide application execution environment
 
 <img src="https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/images/chef.png" width="600">
 
-## Procision of execution environment using Docker:
+### Intuition:
+
+
+## Provision of execution environment using Docker:
 
 <img src="https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/images/docker.png" width="600">
 
@@ -33,3 +36,13 @@ of a software. It will also be used to provide application execution environment
     * Docker
     * Eclipse
     
+
+## Resources
+
+[Synopsis](https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/reports/synopsis.pdf)
+
+[Final Report](https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/reports/Final_Report/thesis.pdf)
+
+[Publication](https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/reports/Publication/Paper.pdf)
+
+[Presentation](http://uxclass.csc.ncsu.edu/2020/05/project-secure-manufacture-ui.html)
