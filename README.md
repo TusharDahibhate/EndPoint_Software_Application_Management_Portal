@@ -17,11 +17,23 @@ of a software. It will also be used to provide application execution environment
 <img src="https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/images/chef.png" width="600">
 
 ### Intuition:
-
+1. The application server will also serve as the Chef Server and Chef Workstation.
+2. The UI will accept the IP address and credentials of the endpoint on which we need the software to be installed.
+3. Chef server will accept this data and initiate bootstrapping of the endpoint(If it is not already bootstrapped).
+4. Chef server will then upload the appropriate cookbooks as per the software selected, onto the endpoint. 
+5. The client will then execute the cookbooks, thus installing the software.
 
 ## Provision of execution environment using Docker:
 
 <img src="https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/images/docker.png" width="600">
+
+### Intuition
+1. The endpoints have docker installed on them. 
+2. The UI will accept the desired IP address, credentials, execution environment and the necessary web application code to execute. 
+3. The server will secure copy the contents and initiate a docker build on the endpoints using the Docker remote API. 
+4. The server will then spawn the containers once the build is done and the code will be placed in the environment. 
+5. Overall, we packaged the application and all the dependencies needed for that application to execute in isolated containers in a platform independent manner.
+
 
 ## Tech Stack
 * Backend
@@ -45,4 +57,4 @@ of a software. It will also be used to provide application execution environment
 
 [Publication](https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/reports/Publication/Paper.pdf)
 
-[Presentation](http://uxclass.csc.ncsu.edu/2020/05/project-secure-manufacture-ui.html)
+[Presentation](https://github.com/TusharDahibhate/EndPoint_Software_Application_Management_Portal/blob/master/reports/Review_presentation.pdf)
