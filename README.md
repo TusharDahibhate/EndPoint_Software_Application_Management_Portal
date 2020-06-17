@@ -1,7 +1,7 @@
 # Endpoint Software/Application Management Portal
 
 This project served as the final year project for the partial fulfilment of my Bachelor's degree in Computer Engineering from 
-Singhad College of Engineering(Pune University). This project was completed by a team of 4 under the guidance of Prof. A.R. Joshi along 
+Sinhgad College of Engineering(Pune University). This project was completed by a team of 4 under the guidance of Prof. A.R. Joshi along 
 with seasoned mentors from the industry.
 
 The repository contains the resources relevant to the project.
